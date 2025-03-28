@@ -482,3 +482,41 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.experience-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.experience-table th, .experience-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.experience-table th {
+    background-color: #f4f4f4;
+}
+
+
+.experience-table tr:first-child th {
+    border-top: none; /* Remove any top border */
+}
+
+.experience-table td:first-child,
+.experience-table th:first-child {
+    border-left: none; /* Remove left border for first column */
+}
+
+.experience-table td:last-child,
+.experience-table th:last-child {
+    border-right: none; /* Remove right border for last column */
+}
+
+.experience-section {
+    flex: 1;
+    min-width: 45%;
+    max-width: 50%;
+    padding: 10px;
+}
+
