@@ -489,9 +489,13 @@ footer .footer-below {
 }
 
 .experience-table th, .experience-table td {
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ddd;
     text-align: left;
+}
+
+.experience-table td {
+    font-size: 14px;
 }
 
 .experience-table th {
@@ -517,7 +521,8 @@ footer .footer-below {
     flex: 1;
     min-width: 45%;
     max-width: 100%;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .experience-header {
